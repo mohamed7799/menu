@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: cornsilk;
+}
+
+li {
+  list-style: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
